@@ -11,6 +11,12 @@
     </div>
     
       <ion-list class="menu-items" lines="none">
+
+          <ion-item button @click="retroceder()">
+        
+          <ion-icon src="/assets/svg/chevron-back-outline.svg"></ion-icon>Regresar
+        </ion-item>
+        
         <ion-item button @click="menuNavigation('/home')" class="active">
           <ion-icon src="/assets/svg/home.svg"></ion-icon>Inicio
         </ion-item>
@@ -24,9 +30,19 @@
           <ion-icon src="/assets/svg/newspaper-outline.svg"></ion-icon>Noticias
         </ion-item>
 
+         <ion-item button @click="menuNavigation('/contacto')">
+        
+          <ion-icon src="/assets/svg/chatbubble-ellipses-outline.svg"></ion-icon>Contacto
+        </ion-item>
+
+        
+
+       
+        
+
       </ion-list>
     </ion-content>
-  </ion-menu>
+  </ion-menu> 
 </template>
 <script>
 
@@ -44,7 +60,10 @@ export default {
     menuNavigation(url){
       menuController.close("app-menu");
       this.$router.push(url);
-    }
+    },
+    retroceder(){
+     window.history.back();
+   }
   }
 };
 

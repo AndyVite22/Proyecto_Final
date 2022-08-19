@@ -32,15 +32,29 @@
     height: 500px;
     
 }
+.container-img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    
+}
 
 .button{
     margin-top: 20px;
-    color: white;
+    color: black;
     font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
+
+/* .form{
+    background: #f80419;
+    color: #76e9ce;
+} */
 
 @keyframes BgGradient {
     0% {background-position: 0% 50%;}

@@ -4,6 +4,7 @@
 
       <ion-buttons slot="start" class="menu_btn">
         <ion-menu-button color="light"></ion-menu-button>
+           
       </ion-buttons>
 
 
@@ -12,8 +13,8 @@
            <ion-label data-text="Informate Ahora" class="titulo">Informate Ahora</ion-label>
           
         </div>
-
-
+ 
+ 
         
 
         <div class="logo_back">
@@ -29,7 +30,7 @@
                 <img :src="opc.imagen">
                 <ion-label class="categoria_text"><a :href="opc.ruta" class="ruta_text">{{opc.categoria}}</a></ion-label>
                 
-                
+                 
               </div>
             </ion-col>
           </ion-row>
@@ -69,7 +70,8 @@ export default defineComponent({
         {
           id: 2,
           imagen:"https://www.oas.org/ext/Portals/14/EasyDNNNews/2270/images/Image-300-300-p-L-97.jpg",
-          categoria:"Noticias Culturales"
+          categoria:"Noticias Culturales",
+          ruta: '/noticiasculturales'
         },
 
          {
@@ -83,19 +85,22 @@ export default defineComponent({
         {
           id: 4,
           imagen:"https://partidodeltrabajo.org.mx/2017/wp-content/uploads/2019/06/democracia.jpg",
-          categoria: "Noticias Políticas"
+          categoria: "Noticias Políticas",
+          ruta: '/noticiaspoliticas'
         },
 
         {
           id: 5,
           imagen:"https://dospuntosrevista.com/wp-content/uploads/2020/02/Cientifica-mexicana.jpg",
-          categoria: "Noticias Científicas"
+          categoria: "Noticias Científicas",
+          ruta: '/noticiascientificas'
         },
 
         {
           id: 6,
           imagen:"https://media.realinstitutoelcano.org/wp-content/uploads/2021/11/banderas-reinounido-eeuu-luxemburgo-alemania-1.jpg",
-          categoria: "Noticias Extranjeras"
+          categoria: "Noticias Extranjeras",
+          ruta: '/noticiasextranjeras'
         }
       ]
     }

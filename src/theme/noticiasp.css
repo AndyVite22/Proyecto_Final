@@ -59,7 +59,7 @@ text-transform: uppercase;
     left: 0;
     width: 0;
     height: 20%;
-    color: white;
+    color: black;
     -webkit-text-stroke: 0vw #fa8525;
     border-right: 2px solid #01fe87;
     overflow: hidden;
@@ -92,7 +92,7 @@ background-image: url(/public/assets/img/logo.jpg);
 }
 
 .content_div{
-    background: linear-gradient(to top, #f0332d, #f58443,  #ffffff);
+    background: white;
     width: 100%;
     border-top-right-radius: 75px;
     margin-top: -90px;
@@ -109,9 +109,7 @@ background-image: url(/public/assets/img/logo.jpg);
     height: 150px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    background:linear-gradient(to right,  #f0332d , #F7BA79);
 }
-
 .content_div .hola_lbl{
     font-weight: 600;
     font-size: 18px;
@@ -155,6 +153,7 @@ background-image: url(/public/assets/img/logo.jpg);
 }
 
 .button_n{
+    color:white;
     --background:linear-gradient(to right, #070707 , #585f79);
     
 }

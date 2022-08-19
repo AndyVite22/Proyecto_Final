@@ -37,6 +37,17 @@
    <ion-button class="button_n">Leer más...</ion-button>
 </ion-card>
 
+ <ion-card class="card">
+  <ion-card-header class="card-header">
+    <img class="img" src="https://www.elsoldemexico.com.mx/republica/sociedad/c0hvmu-criptomonenda/alternates/LANDSCAPE_768/criptomonenda" alt="">
+    <ion-card-subtitle>Noticias Policiales</ion-card-subtitle>
+    <ion-card-title>Policía Cibernética de SLP descubre minería de criptomonedas en sistema CONALEP</ion-card-title>
+  </ion-card-header>
+  <ion-card-content class="card-content">
+    La Policía Cibernética de San Luis Potosí, informa que derivado de una intervención realizada en la Dirección General del sistema CONALEP, se descubrió una mina de criptomonedas, por lo que se abrirá una investigación para ubicar a los presuntos responsables, pues se presume que hay una red de funcionarios públicos involucrados.
+  </ion-card-content>
+   <ion-button class="button_n">Leer más...</ion-button>
+</ion-card>
 
       </div>
 
