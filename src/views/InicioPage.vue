@@ -53,7 +53,7 @@ export default defineComponent({
   name: "InicioPage",
   components: {
   IonContent,
-  IonButtons,
+  IonButtons, 
   IonLabel
   },
 

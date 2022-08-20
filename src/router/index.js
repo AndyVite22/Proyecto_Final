@@ -7,6 +7,8 @@ import NoticiasCPage from '../views/NoticiasC.vue'
 import NoticiasPoPage from '../views/NoticiasPo.vue'
 import NoticiasCiPage from '../views/NoticiasCi.vue'
 import NoticiasEPage from '../views/NoticiasE.vue'
+import NosotrosPage from '../views/NosotrosPage.vue'
+import GaleryPage from '../views/Galery.vue'
 import ContactPage from '../views/ContactPage.vue'
 
 const routes = [
@@ -59,7 +61,16 @@ const routes = [
     name: 'NoticiasE',
     component: NoticiasEPage
   },
-
+  {
+    path: '/nosotros',
+    name: 'NosotrosPage',
+    component: NosotrosPage
+  },
+  {
+    path: '/galeria',
+    name: 'Galery',
+    component: GaleryPage
+  },
   {
     path: '/contacto',
     name: 'ContactPage',

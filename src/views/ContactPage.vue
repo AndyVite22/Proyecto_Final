@@ -45,9 +45,9 @@
                     <ion-label position="floating">Comentarios...</ion-label>
                     <ion-textarea></ion-textarea>
                 </ion-item>
-                <div class="button2">
+                <div class="button">
                 
-                    <ion-button shape="round" color="#f80419"
+                    <ion-button shape="round" color="danger"
                      type="submit"> Enviar...</ion-button>
                 
                 </div>

@@ -1,5 +1,5 @@
 .fondoinicio{
-    --background:linear-gradient(to right, #c5211c , #F7BA79);
+    --background:#c5211c ;
 }
 .button-back{
     margin-top: 20px;   
@@ -39,7 +39,7 @@ ion-label{
     padding: 20px;
     width: 100%;
     height: 260px;
-    background: linear-gradient(to right,  #c5211c, #F7BA79);
+    background:#c5211c;
     display: flex;
     padding-top: 40px;
     justify-content: space-between;
@@ -144,7 +144,7 @@ background-image: url(/public/assets/img/logo.jpg);
     width: 110px;
     height: 80px;
 }
-.button2{       
+/* .button2{       
     margin-top: 20px;
     color: black;
     font-size: 20px;
@@ -154,6 +154,6 @@ background-image: url(/public/assets/img/logo.jpg);
     
     
     
-}
+} */
 
 

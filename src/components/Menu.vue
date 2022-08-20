@@ -17,20 +17,24 @@
           <ion-icon src="/assets/svg/chevron-back-outline.svg"></ion-icon>Regresar
         </ion-item>
         
-        <ion-item button @click="menuNavigation('/home')" class="active">
+        <ion-item button href="/home" class="active">
           <ion-icon src="/assets/svg/home.svg"></ion-icon>Inicio
         </ion-item>
 
-        <ion-item button @click="menuNavigation('/about')">
+        <ion-item button href="/nosotros">
           <ion-icon src="/assets/svg/alert-circle-outline.svg"></ion-icon>Nosotros
         </ion-item>
 
-        <ion-item button @click="menuNavigation('/inicio')">
+        <ion-item button href="/inicio">
         
           <ion-icon src="/assets/svg/newspaper-outline.svg"></ion-icon>Noticias
         </ion-item>
 
-         <ion-item button @click="menuNavigation('/contacto')">
+        <ion-item button href="/galeria">
+        
+          <ion-icon src="/assets/svg/image-outline.svg"></ion-icon>Galeria
+        </ion-item>
+         <ion-item button href="/contacto">
         
           <ion-icon src="/assets/svg/chatbubble-ellipses-outline.svg"></ion-icon>Contacto
         </ion-item>
@@ -48,7 +52,7 @@
 
 import {
   IonMenu,IonContent,IonItem,IonList,IonLabel,IonIcon,
-  menuController
+  /* menuController */
 } from "@ionic/vue";
 
 
@@ -57,10 +61,10 @@ export default {
     IonMenu,IonContent,IonItem,IonList,IonLabel, IonIcon
   },
   methods:{
-    menuNavigation(url){
+   /*  menuNavigation(url){
       menuController.close("app-menu");
       this.$router.push(url);
-    },
+    }, */
     retroceder(){
      window.history.back();
    }

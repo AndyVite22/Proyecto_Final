@@ -27,6 +27,7 @@ import './theme/principal.css';
 import './theme/inicio.css';
 import './theme/menu.css';
 import './theme/noticiasp.css';
+import './theme/nosotros.css';
 
 const app = createApp(App)
   .use(IonicVue)
